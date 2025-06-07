@@ -1,7 +1,8 @@
 #turtlesim-suicide-squad  
-A turtlesim project using ROS2 Jazzy - where a master turtle follows a spawned turtle and gets killed after reaching the target turtle (spawned turtle). The spawned turtle is then promoted to master turtle and targets the next spawned turtle.
+A turtlesim project using ROS2 Jazzy - where a master turtle follows a spawned turtle and gets killed after reaching the target turtle (spawned turtle). The spawned turtle is then promoted to master turtle and targets the next spawned turtle. Additionally, each new master turtle moves with a different colored path.
 
-It would look like this preview:
+It would look like this:  
+![Simulation Demo](media/Turtlesim_suicide_squad-ezgif.com-video-to-gif-converter.gif)
 
 **What do we need to run this?**
 I've run this on:
