@@ -17,9 +17,9 @@ Make sure to add the executables as shown in the CMakeLists.txt and package.xml 
 After that, Follow these steps:
 
 1. Clone the repository using this command below
-<pre>git clone //</pre>
+<pre>git clone git@github.com:335saikiran/turtlesim-suicide-squad.git</pre>
 2. Then compile the package using
-<pre>colcon build --packages-select // --symlink-install</pre>
+<pre>colcon build --packages-select **//** --symlink-install</pre>
 3.  Run the launch file
 <pre>ros2 launch mark_bringup turtlesim_suicide_squad.xml</pre>
 
